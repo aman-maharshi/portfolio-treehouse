@@ -100,7 +100,7 @@ footer {
   padding-top: 30px;
 }
 footer a .fa {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #999; /*gray color*/
   margin: 0 2.5px;
 }
@@ -109,4 +109,21 @@ footer a .fa:hover {
 }
 footer p {
   font-size: 0.75em;
+}
+
+/************
+  About Page
+*************/
+.profile-picture {
+  display: block;
+  max-width: 300px;
+  margin: 2em auto;
+  border-radius: 100%;
+}
+.about-content {
+  text-align: left;
+  padding: 2em;
+  padding-top: 1em;
+}
+.about-content h2{
 }

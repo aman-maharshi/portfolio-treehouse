@@ -1,3 +1,7 @@
+/*
+  mobile first approach is used, default is for mobile device (xs) single column view
+*/
+
 /* for large screens*/
 @media (min-width: 992px) {
   #gallary li{
@@ -48,7 +52,7 @@
   }
 
 }
-/* for medium sized screens*/
+/* for medium sized devices, laptops*/
 @media (min-width: 768px) and (max-width: 991px) {
   #gallary li{
     float: left;
@@ -70,7 +74,24 @@
   }
 
 }
-@media (max-width: 767px) {
+/* small decives and tablets */
+@media (min-width:480px) and (max-width: 767px){
+  #gallary li{
+    float: left;
+    width: 45%; /* width: 90%;*/
+    margin: 2.5%; /* margin: 5%;*/
 
-
+  }
+  #left {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+  }
+  #right {
+    width: 70%;
+    float: right;
+    overflow: auto;
+    margin-top: 1.5em;
+    padding-left: 4em;
+  }
 }

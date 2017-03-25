@@ -46,6 +46,7 @@
   }
   main {
     clear: both;
+    min-height: 625px;
   }
   #gallary {
     padding: 2em;
@@ -72,7 +73,6 @@
     margin-top: 1.5em;
     padding-left: 4em;
   }
-
 }
 /* small decives and tablets */
 @media (min-width:480px) and (max-width: 767px){

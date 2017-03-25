@@ -65,6 +65,9 @@ nav a.selected {
 /*********
   MAIN
 **********/
+main {
+  min-height: 500px;
+}
 main, footer {
   /*centering the content*/
   max-width: 1100px;

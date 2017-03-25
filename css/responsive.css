@@ -1,0 +1,76 @@
+/* for large screens*/
+@media (min-width: 992px) {
+  #gallary li{
+    float: left;
+    width: 28%; /* width: 90%;*/
+    margin: 2%; /* margin: 5%;*/
+  }
+  #left {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+  }
+  #right {
+    width: 70%;
+    float: right;
+    overflow: auto;
+    margin-top: 1.5em;
+    padding-left: 4em;
+  }
+  header {
+    position: relative;
+    height: 75px;
+  }
+  h1 {
+    font-size: 2.25em;
+  }
+  h3 {
+    font-size: 0.75em;
+  }
+  #brand {
+    float: left;
+    position: absolute;
+    top: -20px;
+    left: 2em;
+  }
+  nav {
+    background: none;
+    margin-right: 2em;
+    text-align: right;
+    font-size: 1.25em;
+
+  }
+  main {
+    clear: both;
+  }
+  #gallary {
+    padding: 2em;
+  }
+
+}
+/* for medium sized screens*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #gallary li{
+    float: left;
+    width: 45%; /* width: 90%;*/
+    margin: 2.5%; /* margin: 5%;*/
+
+  }
+  #left {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+  }
+  #right {
+    width: 70%;
+    float: right;
+    overflow: auto;
+    margin-top: 1.5em;
+    padding-left: 4em;
+  }
+
+}
+@media (max-width: 767px) {
+
+
+}

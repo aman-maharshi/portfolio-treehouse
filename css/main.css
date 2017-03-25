@@ -79,8 +79,8 @@ main, footer {
 }
 #gallary li{
   float: left;
-  width: 45%; /* width: 90%;*/
-  margin: 2.5%; /* margin: 5%;*/
+  width: 90%; /* width: 90%;*/
+  margin: 5%; /* margin: 5%;*/
   background-color: #f5f5f5; /* light gray color*/
   /* #6ab47b lighter shade of green*/
   color: #bdc3c7; /* little darker shade of gray*/
@@ -116,9 +116,9 @@ footer p {
 *************/
 .profile-picture {
   display: block;
-  max-width: 300px;
+  max-width: 250px;
   margin: 2em auto;
-  border-radius: 100%;
+  margin-bottom: 0;
 }
 .about-content {
   text-align: left;
@@ -126,4 +126,24 @@ footer p {
   padding-top: 1em;
 }
 .about-content h2{
+}
+.profile-picture {
+  border-radius: 100%;
+}
+
+/**************
+  Contact Page
+***************/
+.contact {
+  padding-top: 2em;
+}
+.contact ul {
+  display: inline-block;
+}
+.contact ul li  {
+  display: inline;
+  margin-right: 2em;
+}
+.contact ul li i {
+  margin-right: 5px;
 }
